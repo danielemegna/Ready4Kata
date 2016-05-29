@@ -1,0 +1,11 @@
+{
+  "author": "Daniele Megna",
+  "name": "Ready4Kata",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  }
+}
