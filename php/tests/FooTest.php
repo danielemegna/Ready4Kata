@@ -6,7 +6,7 @@ class FooTest extends PHPUnit_Framework_TestCase {
 
   function test_methodReturnsTrue() {
     $foo = new Foo();
-    $this->assertTrue(foo->method());
+    $this->assertTrue($foo->method());
   }
   
 
