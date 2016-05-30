@@ -8,6 +8,5 @@ class FooTest extends PHPUnit_Framework_TestCase {
     $foo = new Foo();
     $this->assertTrue($foo->method());
   }
-  
 
 }
