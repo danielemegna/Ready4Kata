@@ -1,4 +1,4 @@
-### Manual easy start
+### Manual start
 
 ```
 $ apt-get install npm
@@ -10,7 +10,7 @@ $ ./runtests.sh
 
 ```
 $ docker build -t nodejskata .
-$ docker run -it -v $(pwd):/app nodejskata 
+$ docker run -it --rm -v $(pwd):/app -w /app nodejskata 
 ```
 and inside the container
 ```

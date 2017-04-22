@@ -9,7 +9,7 @@ $ ./runtests.sh
 
 ```
 $ docker build -t phpkata .
-$ docker run -it -v $(pwd):/app phpkata 
+$ docker run -it --rm -v $(pwd):/app -w /app phpkata 
 ```
 and inside the container
 ```

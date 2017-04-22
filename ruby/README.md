@@ -1,4 +1,4 @@
-### Manual easy start
+### Manual start
 
 ```
 $ apt-get install ruby
@@ -10,7 +10,7 @@ $ ./runtests.sh
 
 ```
 $ docker build -t rubykata .
-$ docker run -it -v $(pwd):/app rubykata 
+$ docker run -it --rm -v $(pwd):/app -w /app rubykata 
 ```
 and inside the container
 ```
